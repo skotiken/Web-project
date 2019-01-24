@@ -1,0 +1,77 @@
+* {
+    /* color: green */
+   
+}
+p {
+    color: red;
+}
+.foo {
+    color: blue;
+    border: red 2px solid;
+    border-width: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: underline line-through;
+
+}
+h1:hover {
+    text-decoration: underline;
+    cursor: -webkit-zoom-in;
+}
+.bar {
+    color: yellow;
+    background-color: blue;
+  
+}
+#baz {
+    color: pink
+}
+.block1 {
+    background-color: red;
+    height: 100px;
+    line-height: 100px;
+    /* text-align: center; */
+    width: 400px;
+    float: left;
+    margin: 20px;
+}
+.block2 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    float: right;
+    border: 10px solid green;
+    margin: 20px;
+    padding: 30px;
+
+}
+.block3 {
+    position: absolute;
+    background: pink;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 75px;
+    z-index: 3;
+
+}
+.block4 {
+    position: absolute;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 100px;
+    z-index: 2;
+}
+.block5 {
+    position: absolute;
+    background: green;
+    width: 100px;
+    height: 100px;
+    top: 75px;
+    left: 125px;
+    z-index: 1;
+    border-radius: 20px;
+}
