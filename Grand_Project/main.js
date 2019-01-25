@@ -182,9 +182,6 @@ function form_failed($form)
   $form.find('.login-form-main-message').addClass('show error').html(options['msg-error']);
 }
 
-// Dummy Submit Form (Remove this)
-//----------------------------------------------
-// This is just a dummy form submission. You should use your AJAX function or remove this function if you are not using AJAX.
 function dummy_submit_form($form)
 {
   if($form.valid())

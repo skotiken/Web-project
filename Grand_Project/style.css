@@ -47,8 +47,14 @@ hr {
 }
 .left {float: left;}
 .right {float: right;}
-.clear {clear: both}
+.clear {clear: both;}
 .float-center {text-align: center;}
+.btn-custom {background-color: #B87333;}
+.text-contacts {
+  font-size: 1.7em;
+  font-family: zapfino;
+  color: #B87333;}
+
 header, footer {
     width: 98%;
     background-color: white;
@@ -153,17 +159,17 @@ article h2 {
 }
 article p {
     width: 80%;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-top: 50px;
+    font-family: 'zapfino', 'Arial Narrow', Arial, sans-serif;
 
 } 
 article a {
     padding: 10px 5px;
-    background-color: silver;
-    color: #fafafa;
-    margin-left: 40%;
-    border-radius: 9px;
-    margin-top: 10px;
-    float: left;
+    
+    color: #B87333;
+   
+    
     margin-bottom: 10px;
 }
 #centralBlock {
@@ -174,86 +180,24 @@ article a {
     margin: 20px 0;
     float: left;
     /* background: url(Panorama_of_Riga,_1572.jpg) repeat-x top; */
-    height: 350px;
+    height: 500px;
 
+}
+.text-justify {
+text-indent: 45px;
 }
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  width: 400px;
+  width: 600px;
   position: relative;
   margin: auto;
-  border-radius: 50px;
+  
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: gray;
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
 
 @-webkit-keyframes fade {
   from {opacity: .4} 
@@ -264,26 +208,7 @@ article a {
   from {opacity: .4} 
   to {opacity: 1}
 }
-  /*------------------------------------------------------------------
-[Master Stylesheet]
-
-Project    	: Aether
-Version		: 1.0
-Last change	: 2015/03/27
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. General Structure
-2. Anchor Link
-3. Text Outside the Box
-4. Main Form
-5. Login Button
-6. Form Invalid
-7. Form - Main Message
-8. Custom Checkbox & Radio
-9. Misc
--------------------------------------------------------------------*/
+  
 /*=== 1. General Structure ===*/
 html,
 body {
@@ -556,11 +481,11 @@ label:hover:before {
 
 
 
-#contatti{
+#contacts{
     background-color: #f7f7f7;
     letter-spacing: 2px;
     }
-  #contatti a{
+  #contacts a{
     color: #B87333;
     text-decoration: none;
   }
@@ -568,8 +493,8 @@ label:hover:before {
   
   @media (max-width: 575.98px) {
   
-    #contatti{padding-bottom: 800px;}
-    #contatti .maps iframe{
+    #contacts{padding-bottom: 800px;}
+    #contacts .maps iframe{
       width: 100%;
       height: 450px;
     }
@@ -578,9 +503,9 @@ label:hover:before {
   
   @media (min-width: 576px) {
   
-     #contatti{padding-bottom: 800px;}
+     #contacts{padding-bottom: 800px;}
   
-     #contatti .maps iframe{
+     #contacts .maps iframe{
        width: 100%;
        height: 450px;
      }
@@ -588,18 +513,18 @@ label:hover:before {
   
   @media (min-width: 768px) {
   
-    #contatti{padding-bottom: 350px;}
+    #contacts{padding-bottom: 350px;}
   
-    #contatti .maps iframe{
+    #contacts .maps iframe{
       width: 100%;
       height: 850px;
     }
   }
   
   @media (min-width: 992px) {
-    #contatti{padding-bottom: 200px;}
+    #contacts{padding-bottom: 200px;}
   
-     #contatti .maps iframe{
+     #contacts .maps iframe{
        width: 100%;
        height: 700px;
      }
